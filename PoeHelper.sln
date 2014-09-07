@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.GUI", "PoeHelper.GUI\PoeHelper.GUI.csproj", "{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
