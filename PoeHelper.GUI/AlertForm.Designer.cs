@@ -59,7 +59,6 @@
 			this.Text = "AlertForm";
 			this.TopMost = true;
 			this.TransparencyKey = System.Drawing.Color.Lime;
-			this.Click += new System.EventHandler(this.AlertForm_Click);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

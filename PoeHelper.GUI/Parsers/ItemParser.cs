@@ -14,8 +14,9 @@ namespace PoeHelper.GUI.Parsers
 			parsers = new IParser<PoeItem>[]
 			{
 				new PhysicalDamagaParser(),
-				new ElementalDamageParser(), 
-				new AttackSpeedParser(), 
+				new ElementalDamageParser(),
+				new AttackSpeedParser(),
+				new ItemLevelParser()
 			};
 		}
 

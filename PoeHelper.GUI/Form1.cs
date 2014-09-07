@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using System.Threading;
 using System.Windows.Forms;
 using PoeHelper.GUI.Parsers;
+using Timer = System.Windows.Forms.Timer;
 
 namespace PoeHelper.GUI
 {
@@ -10,8 +12,8 @@ namespace PoeHelper.GUI
 		private const int WM_DRAWCLIPBOARD = 0x0308; // WM_DRAWCLIPBOARD message
 		private readonly IntPtr _clipboardViewerNext;
 		private readonly ItemParser itemParser;
-		private AlertForm alert;
 		private string lastData;
+		private AlertForm alert;
 
 		public Form1()
 		{
@@ -48,20 +50,12 @@ namespace PoeHelper.GUI
 					if (alert != null)
 					{
 						alert.Close();
-						alert = null;
 					}
 
 					alert = new AlertForm();
-					alert.Closed += alert_Closed;
-
 					alert.ShowMessage(text);
 				}
 			}
-		}
-
-		void alert_Closed(object sender, EventArgs e)
-		{
-			alert = null;
 		}
 
 		private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
