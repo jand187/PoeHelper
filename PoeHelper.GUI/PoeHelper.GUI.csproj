@@ -70,6 +70,7 @@
     <Compile Include="Parsers\IParser.cs" />
     <Compile Include="Parsers\ItemLevelParser.cs" />
     <Compile Include="Parsers\ItemParser.cs" />
+    <Compile Include="Parsers\Mods\ModDatabase.cs" />
     <Compile Include="Parsers\PhysicalDamagaParser.cs" />
     <Compile Include="Model\PoeItem.cs" />
     <Compile Include="Program.cs" />

@@ -6,10 +6,12 @@ namespace PoeHelper.GUI.Parsers.Mods
 {
 	public class IncreasedDamageWithWeaponsModParser : IParser<PoeItem>
 	{
+		private readonly ModDatabase modDatabase;
 		private readonly string pattern;
 
-		public IncreasedDamageWithWeaponsModParser()
+		public IncreasedDamageWithWeaponsModParser(ModDatabase modDatabase)
 		{
+			this.modDatabase = modDatabase;
 			pattern = @"(\d+)% increased ([\w ]+) Damage with Weapons";
 		}
 
@@ -21,14 +23,17 @@ namespace PoeHelper.GUI.Parsers.Mods
 		public PoeItem Parse(string line, PoeItem target)
 		{
 			var match = Regex.Match(line, pattern);
+			var amount = Convert.ToInt32(match.Groups[1].Value);
+			var name = match.Groups[2].Value.TrimEnd();
 			target.AddMod(
 				new ModType
 				{
-					Amount = Convert.ToInt32(match.Groups[1].Value),
-					Name = match.Groups[2].Value.TrimEnd(),
-					DisplayText = (m) => string.Format("{0}% increased {1} Damage with Weapons", m.Amount, m.Name),
+					Amount = amount,
+					Name = name,
+					//ModRequiredLevel = modDatabase.GetLevel(amount, string.Format("% increased {0} Damage with Weapons", name)),
+					DisplayText = m => string.Format("{0}% increased {1} Damage with Weapons", m.Amount, m.Name),
 				});
-			target.ItemLevel = Convert.ToInt32(match.Groups[1].Value);
+
 			return target;
 		}
 	}

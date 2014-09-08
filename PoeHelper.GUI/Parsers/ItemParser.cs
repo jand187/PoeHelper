@@ -15,8 +15,8 @@ namespace PoeHelper.GUI.Parsers
 		public ItemParser()
 		{
 			var modDefinitionsFile = File.ReadAllText(Path.Combine(Environment.CurrentDirectory, @"Data\ModDefinitions.json"));
-
 			var modDefinitions = JsonConvert.DeserializeObject<IEnumerable<ModDefinition>>(modDefinitionsFile);
+			var modDatabase = new ModDatabase(modDefinitions);
 
 			//var modDefs = JsonConvert.SerializeObject(modDefinitions);
 
@@ -26,9 +26,9 @@ namespace PoeHelper.GUI.Parsers
 				new ElementalDamageParser(),
 				new AttackSpeedParser(),
 				new ItemLevelParser(),
-				new IncreasedDamageModParser(modDefinitions), 
-				new IncreasedDamageWithWeaponsModParser(), 
-				new IncreasedResistanceModParser(modDefinitions), 
+				new IncreasedDamageModParser(modDatabase), 
+				new IncreasedDamageWithWeaponsModParser(modDatabase), 
+				new IncreasedResistanceModParser(modDatabase), 
 			};
 		}
 
