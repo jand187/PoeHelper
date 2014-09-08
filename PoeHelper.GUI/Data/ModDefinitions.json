@@ -397,7 +397,7 @@
 		]
 	},
 	{
-		"Name": "+% to all Elemental Resistance",
+		"Name": "+% to all Elemental Resistances",
 		"Tiers": [
 			{
 				"RequiredLevel": 60,
@@ -765,6 +765,147 @@
 				"DamageRange": {
 					"Max": 19.0,
 					"Min": 15.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "% increased Evasion Rating",
+		"Tiers": [
+			{
+				"RequiredLevel": 72,
+				"DamageRange": {
+					"Max": 120.0,
+					"Min": 101.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 100.0,
+					"Min": 83.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 82.0,
+					"Min": 65.0
+				}
+			},
+			{
+				"RequiredLevel": 30,
+				"DamageRange": {
+					"Max": 64.0,
+					"Min": 47.0
+				}
+			},
+			{
+				"RequiredLevel": 19,
+				"DamageRange": {
+					"Max": 46.0,
+					"Min": 29.0
+				}
+			},
+			{
+				"RequiredLevel": 3,
+				"DamageRange": {
+					"Max": 28.0,
+					"Min": 11.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "% increased Armour",
+		"Tiers": [
+			{
+				"RequiredLevel": 72,
+				"DamageRange": {
+					"Max": 120.0,
+					"Min": 101.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 100.0,
+					"Min": 83.0
+				}
+			},
+			{
+				"RequiredLevel": 42,
+				"DamageRange": {
+					"Max": 82.0,
+					"Min": 65.0
+				}
+			},
+			{
+				"RequiredLevel": 29,
+				"DamageRange": {
+					"Max": 64.0,
+					"Min": 47.0
+				}
+			},
+			{
+				"RequiredLevel": 17,
+				"DamageRange": {
+					"Max": 46.0,
+					"Min": 29.0
+				}
+			},
+			{
+				"RequiredLevel": 3,
+				"DamageRange": {
+					"Max": 28.0,
+					"Min": 11.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "% increased Energy Shield",
+		"Tiers": [
+			{
+				"RequiredLevel": 72,
+				"DamageRange": {
+					"Max": 120.0,
+					"Min": 101.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 100.0,
+					"Min": 83.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 82.0,
+					"Min": 65.0
+				}
+			},
+			{
+				"RequiredLevel": 30,
+				"DamageRange": {
+					"Max": 64.0,
+					"Min": 47.0
+				}
+			},
+			{
+				"RequiredLevel": 18,
+				"DamageRange": {
+					"Max": 46.0,
+					"Min": 29.0
+				}
+			},
+			{
+				"RequiredLevel": 3,
+				"DamageRange": {
+					"Max": 28.0,
+					"Min": 11.0
 				}
 			}
 		]
