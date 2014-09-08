@@ -42,4 +42,144 @@
 			"Min": 3.0
 		}
 	}]
+},
+{
+	"Name": "% increased Cold Damage",
+	"Tiers": [{
+		"RequiredLevel": 76,
+		"DamageRange": {
+			"Max": 30.0,
+			"Min": 27.0
+		}
+	},
+	{
+		"RequiredLevel": 64,
+		"DamageRange": {
+			"Max": 26.0,
+			"Min": 23.0
+		}
+	},
+	{
+		"RequiredLevel": 50,
+		"DamageRange": {
+			"Max": 22.0,
+			"Min": 18.0
+		}
+	},
+	{
+		"RequiredLevel": 36,
+		"DamageRange": {
+			"Max": 17.0,
+			"Min": 13.0
+		}
+	},
+	{
+		"RequiredLevel": 24,
+		"DamageRange": {
+			"Max": 12.0,
+			"Min": 8.0
+		}
+	},
+	{
+		"RequiredLevel": 12,
+		"DamageRange": {
+			"Max": 7.0,
+			"Min": 3.0
+		}
+	}]
+},{
+	"Name": "% increased Lightning Damage",
+	"Tiers": [{
+		"RequiredLevel": 76,
+		"DamageRange": {
+			"Max": 30.0,
+			"Min": 27.0
+		}
+	},
+	{
+		"RequiredLevel": 64,
+		"DamageRange": {
+			"Max": 26.0,
+			"Min": 23.0
+		}
+	},
+	{
+		"RequiredLevel": 50,
+		"DamageRange": {
+			"Max": 22.0,
+			"Min": 18.0
+		}
+	},
+	{
+		"RequiredLevel": 36,
+		"DamageRange": {
+			"Max": 17.0,
+			"Min": 13.0
+		}
+	},
+	{
+		"RequiredLevel": 23,
+		"DamageRange": {
+			"Max": 12.0,
+			"Min": 8.0
+		}
+	},
+	{
+		"RequiredLevel": 10,
+		"DamageRange": {
+			"Max": 7.0,
+			"Min": 3.0
+		}
+	}]
+},{
+	"Name": "% increased Spell Damage",
+	"Tiers": [{
+		"RequiredLevel": 79,
+		"DamageRange": {
+			"Max": 110.0,
+			"Min": 105.0
+		}
+	},
+	{
+		"RequiredLevel": 58,
+		"DamageRange": {
+			"Max": 104.0,
+			"Min": 90.0
+		}
+	},
+	{
+		"RequiredLevel": 46,
+		"DamageRange": {
+			"Max": 89.0,
+			"Min": 75.0
+		}
+	},
+	{
+		"RequiredLevel": 35,
+		"DamageRange": {
+			"Max": 74.0,
+			"Min": 60.0
+		}
+	},
+	{
+		"RequiredLevel": 23,
+		"DamageRange": {
+			"Max": 59.0,
+			"Min": 45.0
+		}
+	},
+	{
+		"RequiredLevel": 11,
+		"DamageRange": {
+			"Max": 44.0,
+			"Min": 30.0
+		}
+	},
+	{
+		"RequiredLevel": 2,
+		"DamageRange": {
+			"Max": 29.0,
+			"Min": 15.0
+		}
+	}]
 }]
