@@ -24,7 +24,7 @@ namespace PoeHelper.GUI.Parsers
 				new ElementalDamageParser(),
 				new AttackSpeedParser(),
 				new ItemLevelParser(),
-				new IncreasedDamageModParser(modDatabase),
+				//new IncreasedDamageModParser(modDatabase),
 				new IncreasedDamageWithWeaponsModParser(modDatabase),
 				new IncreasedPropertyModParser(modDatabase),
 				new IncreasedPercentagePropertyModParser(modDatabase), 

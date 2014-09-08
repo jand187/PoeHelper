@@ -53,6 +53,7 @@ namespace PoeHelper.GUI
 					}
 
 					alert = new AlertForm();
+					alert.Closed += (sender, args) => lastData = null;
 					alert.ShowMessage(text);
 				}
 			}

@@ -31,7 +31,7 @@ namespace PoeHelper.GUI.Parsers.Mods
 					Amount = amount,
 					Name = name,
 					ModRequiredLevel = modDatabase.GetLevel(amount, string.Format("% increased {0} Damage", name)),
-					DisplayText = m => string.Format("{0}% increased {1} Damage ({2})", m.Amount, m.Name, m.ModRequiredLevel),
+					DisplayText = m => string.Format("{0}% increased {1} Damage ({2})*", m.Amount, m.Name, m.ModRequiredLevel),
 				});
 
 			return target;

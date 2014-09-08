@@ -195,6 +195,60 @@
 		]
 	},
 	{
+		"Name": "% increased Physical Damage",
+		"Tiers": [
+			{
+				"RequiredLevel": 73,
+				"DamageRange": {
+					"Max": 169.0,
+					"Min": 150.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 149.0,
+					"Min": 130.0
+				}
+			},
+			{
+				"RequiredLevel": 46,
+				"DamageRange": {
+					"Max": 129.0,
+					"Min": 110.0
+				}
+			},
+			{
+				"RequiredLevel": 35,
+				"DamageRange": {
+					"Max": 109.0,
+					"Min": 90.0
+				}
+			},
+			{
+				"RequiredLevel": 23,
+				"DamageRange": {
+					"Max": 89.0,
+					"Min": 70.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 69.0,
+					"Min": 50.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 49.0,
+					"Min": 20.0
+				}
+			}
+		]
+	},
+	{
 		"Name": "+% to Lightning Resistance",
 		"Tiers": [
 			{
