@@ -182,4 +182,55 @@
 			"Min": 15.0
 		}
 	}]
+},{
+	"Name": "+% to Lightning Resistance",
+	"Tiers": [{
+		"RequiredLevel": 72,
+		"DamageRange": {
+			"Max": 45.0,
+			"Min": 42.0
+		}
+	},
+	{
+		"RequiredLevel": 60,
+		"DamageRange": {
+			"Max": 41.0,
+			"Min": 36.0
+		}
+	},
+	{
+		"RequiredLevel": 49,
+		"DamageRange": {
+			"Max": 35.0,
+			"Min": 30.0
+		}
+	},
+	{
+		"RequiredLevel": 37,
+		"DamageRange": {
+			"Max": 29.0,
+			"Min": 24.0
+		}
+	},
+	{
+		"RequiredLevel": 25,
+		"DamageRange": {
+			"Max": 23.0,
+			"Min": 18.0
+		}
+	},
+	{
+		"RequiredLevel": 13,
+		"DamageRange": {
+			"Max": 17.0,
+			"Min": 12.0
+		}
+	},
+	{
+		"RequiredLevel": 1,
+		"DamageRange": {
+			"Max": 11.0,
+			"Min": 6.0
+		}
+	}]
 }]
