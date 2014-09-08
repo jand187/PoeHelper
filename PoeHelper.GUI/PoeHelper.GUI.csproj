@@ -64,6 +64,7 @@
     <Compile Include="Model\ModType.cs" />
     <Compile Include="Parsers\AttackSpeedParser.cs" />
     <Compile Include="Parsers\ElementalDamageParser.cs" />
+    <Compile Include="Parsers\Mods\AddedPropertyModParser.cs" />
     <Compile Include="Parsers\Mods\IncreasedDamageModParser.cs" />
     <Compile Include="Parsers\Mods\IncreasedDamageWithWeaponsModParser.cs" />
     <Compile Include="Parsers\Mods\IncreasedResistanceModParser.cs" />
