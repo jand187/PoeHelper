@@ -13,7 +13,7 @@ namespace PoeHelper.GUI.Parsers.Mods
 
 		public IncreasedResistanceModParser(IEnumerable<ModDefinition> modDefinitions)
 		{
-			pattern = @"\+(\d+)% to ([\w ]+) Resistance$";
+			pattern = @"\+(\d+)% to ([\w ]+) Resistances?$";
 			modTiers = modDefinitions;
 		}
 
