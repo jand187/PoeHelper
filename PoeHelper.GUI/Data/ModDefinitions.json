@@ -1,419 +1,615 @@
-﻿[{
-	"Name": "% increased Fire Damage",
-	"Tiers": [{
-		"RequiredLevel": 76,
-		"DamageRange": {
-			"Max": 30.0,
-			"Min": 27.0
-		}
+﻿[
+	{
+		"Name": "% increased Fire Damage",
+		"Tiers": [
+			{
+				"RequiredLevel": 76,
+				"DamageRange": {
+					"Max": 30.0,
+					"Min": 27.0
+				}
+			},
+			{
+				"RequiredLevel": 64,
+				"DamageRange": {
+					"Max": 26.0,
+					"Min": 23.0
+				}
+			},
+			{
+				"RequiredLevel": 50,
+				"DamageRange": {
+					"Max": 22.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 22,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 8.0
+				}
+			},
+			{
+				"RequiredLevel": 8,
+				"DamageRange": {
+					"Max": 7.0,
+					"Min": 3.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 64,
-		"DamageRange": {
-			"Max": 26.0,
-			"Min": 23.0
-		}
+		"Name": "% increased Cold Damage",
+		"Tiers": [
+			{
+				"RequiredLevel": 76,
+				"DamageRange": {
+					"Max": 30.0,
+					"Min": 27.0
+				}
+			},
+			{
+				"RequiredLevel": 64,
+				"DamageRange": {
+					"Max": 26.0,
+					"Min": 23.0
+				}
+			},
+			{
+				"RequiredLevel": 50,
+				"DamageRange": {
+					"Max": 22.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 24,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 8.0
+				}
+			},
+			{
+				"RequiredLevel": 12,
+				"DamageRange": {
+					"Max": 7.0,
+					"Min": 3.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 50,
-		"DamageRange": {
-			"Max": 22.0,
-			"Min": 18.0
-		}
+		"Name": "% increased Lightning Damage",
+		"Tiers": [
+			{
+				"RequiredLevel": 76,
+				"DamageRange": {
+					"Max": 30.0,
+					"Min": 27.0
+				}
+			},
+			{
+				"RequiredLevel": 64,
+				"DamageRange": {
+					"Max": 26.0,
+					"Min": 23.0
+				}
+			},
+			{
+				"RequiredLevel": 50,
+				"DamageRange": {
+					"Max": 22.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 23,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 8.0
+				}
+			},
+			{
+				"RequiredLevel": 10,
+				"DamageRange": {
+					"Max": 7.0,
+					"Min": 3.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 36,
-		"DamageRange": {
-			"Max": 17.0,
-			"Min": 13.0
-		}
+		"Name": "% increased Spell Damage",
+		"Tiers": [
+			{
+				"RequiredLevel": 79,
+				"DamageRange": {
+					"Max": 110.0,
+					"Min": 105.0
+				}
+			},
+			{
+				"RequiredLevel": 58,
+				"DamageRange": {
+					"Max": 104.0,
+					"Min": 90.0
+				}
+			},
+			{
+				"RequiredLevel": 46,
+				"DamageRange": {
+					"Max": 89.0,
+					"Min": 75.0
+				}
+			},
+			{
+				"RequiredLevel": 35,
+				"DamageRange": {
+					"Max": 74.0,
+					"Min": 60.0
+				}
+			},
+			{
+				"RequiredLevel": 23,
+				"DamageRange": {
+					"Max": 59.0,
+					"Min": 45.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 44.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 2,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 15.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 22,
-		"DamageRange": {
-			"Max": 12.0,
-			"Min": 8.0
-		}
+		"Name": "+% to Lightning Resistance",
+		"Tiers": [
+			{
+				"RequiredLevel": 72,
+				"DamageRange": {
+					"Max": 45.0,
+					"Min": 42.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 41.0,
+					"Min": 36.0
+				}
+			},
+			{
+				"RequiredLevel": 49,
+				"DamageRange": {
+					"Max": 35.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 37,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 24.0
+				}
+			},
+			{
+				"RequiredLevel": 25,
+				"DamageRange": {
+					"Max": 23.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 13,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 12.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 11.0,
+					"Min": 6.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 8,
-		"DamageRange": {
-			"Max": 7.0,
-			"Min": 3.0
-		}
-	}]
-},
-{
-	"Name": "% increased Cold Damage",
-	"Tiers": [{
-		"RequiredLevel": 76,
-		"DamageRange": {
-			"Max": 30.0,
-			"Min": 27.0
-		}
+		"Name": "+% to Fire Resistance",
+		"Tiers": [
+			{
+				"RequiredLevel": 72,
+				"DamageRange": {
+					"Max": 45.0,
+					"Min": 42.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 41.0,
+					"Min": 36.0
+				}
+			},
+			{
+				"RequiredLevel": 48,
+				"DamageRange": {
+					"Max": 35.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 24.0
+				}
+			},
+			{
+				"RequiredLevel": 24,
+				"DamageRange": {
+					"Max": 23.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 12,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 12.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 11.0,
+					"Min": 6.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 64,
-		"DamageRange": {
-			"Max": 26.0,
-			"Min": 23.0
-		}
+		"Name": "+% to Cold Resistance",
+		"Tiers": [
+			{
+				"RequiredLevel": 72,
+				"DamageRange": {
+					"Max": 45.0,
+					"Min": 42.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 41.0,
+					"Min": 36.0
+				}
+			},
+			{
+				"RequiredLevel": 48,
+				"DamageRange": {
+					"Max": 35.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 24.0
+				}
+			},
+			{
+				"RequiredLevel": 24,
+				"DamageRange": {
+					"Max": 23.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 12,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 12.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 11.0,
+					"Min": 6.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 50,
-		"DamageRange": {
-			"Max": 22.0,
-			"Min": 18.0
-		}
+		"Name": "+% to Chaos Resistance",
+		"Tiers": [
+			{
+				"RequiredLevel": 65,
+				"DamageRange": {
+					"Max": 30.0,
+					"Min": 26.0
+				}
+			},
+			{
+				"RequiredLevel": 56,
+				"DamageRange": {
+					"Max": 25.0,
+					"Min": 21.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 20.0,
+					"Min": 16.0
+				}
+			},
+			{
+				"RequiredLevel": 30,
+				"DamageRange": {
+					"Max": 15.0,
+					"Min": 11.0
+				}
+			},
+			{
+				"RequiredLevel": 16,
+				"DamageRange": {
+					"Max": 10.0,
+					"Min": 5.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 36,
-		"DamageRange": {
-			"Max": 17.0,
-			"Min": 13.0
-		}
+		"Name": "+% to all Elemental Resistance",
+		"Tiers": [
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 16.0,
+					"Min": 15.0
+				}
+			},
+			{
+				"RequiredLevel": 48,
+				"DamageRange": {
+					"Max": 14.0,
+					"Min": 12.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 11.0,
+					"Min": 9.0
+				}
+			},
+			{
+				"RequiredLevel": 24,
+				"DamageRange": {
+					"Max": 8.0,
+					"Min": 6.0
+				}
+			},
+			{
+				"RequiredLevel": 12,
+				"DamageRange": {
+					"Max": 5.0,
+					"Min": 3.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 24,
-		"DamageRange": {
-			"Max": 12.0,
-			"Min": 8.0
-		}
+		"Name": "+ to Armour",
+		"Tiers": [
+			{
+				"RequiredLevel": 71,
+				"DamageRange": {
+					"Max": 400.0,
+					"Min": 323.0
+				}
+			},
+			{
+				"RequiredLevel": 57,
+				"DamageRange": {
+					"Max": 322.0,
+					"Min": 139.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 138.0,
+					"Min": 61.0
+				}
+			},
+			{
+				"RequiredLevel": 30,
+				"DamageRange": {
+					"Max": 60.0,
+					"Min": 36.0
+				}
+			},
+			{
+				"RequiredLevel": 18,
+				"DamageRange": {
+					"Max": 35.0,
+					"Min": 11.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 10.0,
+					"Min": 3.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 12,
-		"DamageRange": {
-			"Max": 7.0,
-			"Min": 3.0
-		}
-	}]
-},
-{
-	"Name": "% increased Lightning Damage",
-	"Tiers": [{
-		"RequiredLevel": 76,
-		"DamageRange": {
-			"Max": 30.0,
-			"Min": 27.0
-		}
+		"Name": "+ to maximum Energy Shield",
+		"Tiers": [
+			{
+				"RequiredLevel": 75,
+				"DamageRange": {
+					"Max": 145.0,
+					"Min": 136.0
+				}
+			},
+			{
+				"RequiredLevel": 69,
+				"DamageRange": {
+					"Max": 135.0,
+					"Min": 107.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 106.0,
+					"Min": 73.0
+				}
+			},
+			{
+				"RequiredLevel": 51,
+				"DamageRange": {
+					"Max": 72.0,
+					"Min": 49.0
+				}
+			},
+			{
+				"RequiredLevel": 43,
+				"DamageRange": {
+					"Max": 48.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 35,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 20.0
+				}
+			},
+			{
+				"RequiredLevel": 29,
+				"DamageRange": {
+					"Max": 19.0,
+					"Min": 16.0
+				}
+			},
+			{
+				"RequiredLevel": 23,
+				"DamageRange": {
+					"Max": 15.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 17,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 9.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 8.0,
+					"Min": 6.0
+				}
+			},
+			{
+				"RequiredLevel": 3,
+				"DamageRange": {
+					"Max": 5.0,
+					"Min": 3.0
+				}
+			}
+		]
 	},
 	{
-		"RequiredLevel": 64,
-		"DamageRange": {
-			"Max": 26.0,
-			"Min": 23.0
-		}
-	},
-	{
-		"RequiredLevel": 50,
-		"DamageRange": {
-			"Max": 22.0,
-			"Min": 18.0
-		}
-	},
-	{
-		"RequiredLevel": 36,
-		"DamageRange": {
-			"Max": 17.0,
-			"Min": 13.0
-		}
-	},
-	{
-		"RequiredLevel": 23,
-		"DamageRange": {
-			"Max": 12.0,
-			"Min": 8.0
-		}
-	},
-	{
-		"RequiredLevel": 10,
-		"DamageRange": {
-			"Max": 7.0,
-			"Min": 3.0
-		}
-	}]
-},
-{
-	"Name": "% increased Spell Damage",
-	"Tiers": [{
-		"RequiredLevel": 79,
-		"DamageRange": {
-			"Max": 110.0,
-			"Min": 105.0
-		}
-	},
-	{
-		"RequiredLevel": 58,
-		"DamageRange": {
-			"Max": 104.0,
-			"Min": 90.0
-		}
-	},
-	{
-		"RequiredLevel": 46,
-		"DamageRange": {
-			"Max": 89.0,
-			"Min": 75.0
-		}
-	},
-	{
-		"RequiredLevel": 35,
-		"DamageRange": {
-			"Max": 74.0,
-			"Min": 60.0
-		}
-	},
-	{
-		"RequiredLevel": 23,
-		"DamageRange": {
-			"Max": 59.0,
-			"Min": 45.0
-		}
-	},
-	{
-		"RequiredLevel": 11,
-		"DamageRange": {
-			"Max": 44.0,
-			"Min": 30.0
-		}
-	},
-	{
-		"RequiredLevel": 2,
-		"DamageRange": {
-			"Max": 29.0,
-			"Min": 15.0
-		}
-	}]
-},
-{
-	"Name": "+% to Lightning Resistance",
-	"Tiers": [{
-		"RequiredLevel": 72,
-		"DamageRange": {
-			"Max": 45.0,
-			"Min": 42.0
-		}
-	},
-	{
-		"RequiredLevel": 60,
-		"DamageRange": {
-			"Max": 41.0,
-			"Min": 36.0
-		}
-	},
-	{
-		"RequiredLevel": 49,
-		"DamageRange": {
-			"Max": 35.0,
-			"Min": 30.0
-		}
-	},
-	{
-		"RequiredLevel": 37,
-		"DamageRange": {
-			"Max": 29.0,
-			"Min": 24.0
-		}
-	},
-	{
-		"RequiredLevel": 25,
-		"DamageRange": {
-			"Max": 23.0,
-			"Min": 18.0
-		}
-	},
-	{
-		"RequiredLevel": 13,
-		"DamageRange": {
-			"Max": 17.0,
-			"Min": 12.0
-		}
-	},
-	{
-		"RequiredLevel": 1,
-		"DamageRange": {
-			"Max": 11.0,
-			"Min": 6.0
-		}
-	}]
-},
-{
-	"Name": "+% to Fire Resistance",
-	"Tiers": [{
-		"RequiredLevel": 72,
-		"DamageRange": {
-			"Max": 45.0,
-			"Min": 42.0
-		}
-	},
-	{
-		"RequiredLevel": 60,
-		"DamageRange": {
-			"Max": 41.0,
-			"Min": 36.0
-		}
-	},
-	{
-		"RequiredLevel": 48,
-		"DamageRange": {
-			"Max": 35.0,
-			"Min": 30.0
-		}
-	},
-	{
-		"RequiredLevel": 36,
-		"DamageRange": {
-			"Max": 29.0,
-			"Min": 24.0
-		}
-	},
-	{
-		"RequiredLevel": 24,
-		"DamageRange": {
-			"Max": 23.0,
-			"Min": 18.0
-		}
-	},
-	{
-		"RequiredLevel": 12,
-		"DamageRange": {
-			"Max": 17.0,
-			"Min": 12.0
-		}
-	},
-	{
-		"RequiredLevel": 1,
-		"DamageRange": {
-			"Max": 11.0,
-			"Min": 6.0
-		}
-	}]
-},
-{
-	"Name": "+% to Cold Resistance",
-	"Tiers": [{
-		"RequiredLevel": 72,
-		"DamageRange": {
-			"Max": 45.0,
-			"Min": 42.0
-		}
-	},
-	{
-		"RequiredLevel": 60,
-		"DamageRange": {
-			"Max": 41.0,
-			"Min": 36.0
-		}
-	},
-	{
-		"RequiredLevel": 48,
-		"DamageRange": {
-			"Max": 35.0,
-			"Min": 30.0
-		}
-	},
-	{
-		"RequiredLevel": 36,
-		"DamageRange": {
-			"Max": 29.0,
-			"Min": 24.0
-		}
-	},
-	{
-		"RequiredLevel": 24,
-		"DamageRange": {
-			"Max": 23.0,
-			"Min": 18.0
-		}
-	},
-	{
-		"RequiredLevel": 12,
-		"DamageRange": {
-			"Max": 17.0,
-			"Min": 12.0
-		}
-	},
-	{
-		"RequiredLevel": 1,
-		"DamageRange": {
-			"Max": 11.0,
-			"Min": 6.0
-		}
-	}]
-},
-{
-	"Name": "+% to Chaos Resistance",
-	"Tiers": [{
-		"RequiredLevel": 65,
-		"DamageRange": {
-			"Max": 30.0,
-			"Min": 26.0
-		}
-	},
-	{
-		"RequiredLevel": 56,
-		"DamageRange": {
-			"Max": 25.0,
-			"Min": 21.0
-		}
-	},
-	{
-		"RequiredLevel": 44,
-		"DamageRange": {
-			"Max": 20.0,
-			"Min": 16.0
-		}
-	},
-	{
-		"RequiredLevel": 30,
-		"DamageRange": {
-			"Max": 15.0,
-			"Min": 11.0
-		}
-	},
-	{
-		"RequiredLevel": 16,
-		"DamageRange": {
-			"Max": 10.0,
-			"Min": 5.0
-		}
-	}]
-},
-{
-	"Name": "+% to all Elemental Resistance",
-	"Tiers": [{
-		"RequiredLevel": 60,
-		"DamageRange": {
-			"Max": 16.0,
-			"Min": 15.0
-		}
-	},
-	{
-		"RequiredLevel": 48,
-		"DamageRange": {
-			"Max": 14.0,
-			"Min": 12.0
-		}
-	},
-	{
-		"RequiredLevel": 36,
-		"DamageRange": {
-			"Max": 11.0,
-			"Min": 9.0
-		}
-	},
-	{
-		"RequiredLevel": 24,
-		"DamageRange": {
-			"Max": 8.0,
-			"Min": 6.0
-		}
-	},
-	{
-		"RequiredLevel": 12,
-		"DamageRange": {
-			"Max": 5.0,
-			"Min": 3.0
-		}
-	}]
-}]
+		"Name": "+ to Evasion Rating",
+		"Tiers": [
+			{
+				"RequiredLevel": 70,
+				"DamageRange": {
+					"Max": 400.0,
+					"Min": 323.0
+				}
+			},
+			{
+				"RequiredLevel": 56,
+				"DamageRange": {
+					"Max": 322.0,
+					"Min": 139.0
+				}
+			},
+			{
+				"RequiredLevel": 42,
+				"DamageRange": {
+					"Max": 138.0,
+					"Min": 61.0
+				}
+			},
+			{
+				"RequiredLevel": 29,
+				"DamageRange": {
+					"Max": 60.0,
+					"Min": 36.0
+				}
+			},
+			{
+				"RequiredLevel": 18,
+				"DamageRange": {
+					"Max": 35.0,
+					"Min": 11.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 10.0,
+					"Min": 3.0
+				}
+			}
+		]
+	}
+]
