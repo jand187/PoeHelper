@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using PoeHelper.GUI.Model;
+using PoeHelper.GUI.Parsers.Mods;
 
 namespace PoeHelper.GUI.Parsers
 {
@@ -19,6 +20,7 @@ namespace PoeHelper.GUI.Parsers
 				new ItemLevelParser(),
 				new IncreasedDamageModParser(), 
 				new IncreasedDamageWithWeaponsModParser(), 
+				new IncreasedResistanceModParser(), 
 			};
 		}
 

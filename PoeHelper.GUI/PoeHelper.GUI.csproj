@@ -59,7 +59,9 @@
     </Compile>
     <Compile Include="Parsers\AttackSpeedParser.cs" />
     <Compile Include="Parsers\ElementalDamageParser.cs" />
-    <Compile Include="Parsers\IncreasedDamageModParser.cs" />
+    <Compile Include="Parsers\Mods\IncreasedDamageModParser.cs" />
+    <Compile Include="Parsers\Mods\IncreasedDamageWithWeaponsModParser.cs" />
+    <Compile Include="Parsers\Mods\IncreasedResistanceModParser.cs" />
     <Compile Include="Parsers\IParser.cs" />
     <Compile Include="Parsers\ItemLevelParser.cs" />
     <Compile Include="Parsers\ItemParser.cs" />

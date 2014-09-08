@@ -48,7 +48,7 @@ namespace PoeHelper.GUI.Model
 			returnText.AppendLine("Mods:");
 			foreach (var modType in modTypes)
 			{
-				returnText.AppendLine(string.Format("{0} {1}", modType.Amount, modType.Name));
+				returnText.AppendLine(modType.ToString());
 			}
 
 			return returnText.ToString();
