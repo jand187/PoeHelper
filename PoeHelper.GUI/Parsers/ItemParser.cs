@@ -18,8 +18,6 @@ namespace PoeHelper.GUI.Parsers
 			var modDefinitions = JsonConvert.DeserializeObject<IEnumerable<ModDefinition>>(modDefinitionsFile);
 			var modDatabase = new ModDatabase(modDefinitions);
 
-			//var modDefs = JsonConvert.SerializeObject(modDefinitions);
-
 			parsers = new IParser<PoeItem>[]
 			{
 				new PhysicalDamagaParser(),

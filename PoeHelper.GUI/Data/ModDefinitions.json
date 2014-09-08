@@ -909,5 +909,256 @@
 				}
 			}
 		]
+	},
+	{
+		"Name": "+ to maximum Accuracy Rating",
+		"Tiers": [
+			{
+				"RequiredLevel": 76,
+				"DamageRange": {
+					"Max": 400.0,
+					"Min": 321.0
+				}
+			},
+			{
+				"RequiredLevel": 63,
+				"DamageRange": {
+					"Max": 320.0,
+					"Min": 251.0
+				}
+			},
+			{
+				"RequiredLevel": 50,
+				"DamageRange": {
+					"Max": 250.0,
+					"Min": 201.0
+				}
+			},
+			{
+				"RequiredLevel": 41,
+				"DamageRange": {
+					"Max": 200.0,
+					"Min": 166.0
+				}
+			},
+			{
+				"RequiredLevel": 33,
+				"DamageRange": {
+					"Max": 165.0,
+					"Min": 131.0
+				}
+			},
+			{
+				"RequiredLevel": 26,
+				"DamageRange": {
+					"Max": 130.0,
+					"Min": 101.0
+				}
+			},
+			{
+				"RequiredLevel": 20,
+				"DamageRange": {
+					"Max": 100.0,
+					"Min": 61.0
+				}
+			},
+			{
+				"RequiredLevel": 12,
+				"DamageRange": {
+					"Max": 60.0,
+					"Min": 16.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 15.0,
+					"Min": 5.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "+ to Strength",
+		"Tiers": [
+			{
+				"RequiredLevel": 74,
+				"DamageRange": {
+					"Max": 50.0,
+					"Min": 43.0
+				}
+			},
+			{
+				"RequiredLevel": 66,
+				"DamageRange": {
+					"Max": 42.0,
+					"Min": 38.0
+				}
+			},
+			{
+				"RequiredLevel": 55,
+				"DamageRange": {
+					"Max": 37.0,
+					"Min": 33.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 32.0,
+					"Min": 28.0
+				}
+			},
+			{
+				"RequiredLevel": 33,
+				"DamageRange": {
+					"Max": 27.0,
+					"Min": 23.0
+				}
+			},
+			{
+				"RequiredLevel": 22,
+				"DamageRange": {
+					"Max": 22.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 8.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "+ to Dexterity",
+		"Tiers": [
+			{
+				"RequiredLevel": 74,
+				"DamageRange": {
+					"Max": 50.0,
+					"Min": 43.0
+				}
+			},
+			{
+				"RequiredLevel": 66,
+				"DamageRange": {
+					"Max": 42.0,
+					"Min": 38.0
+				}
+			},
+			{
+				"RequiredLevel": 55,
+				"DamageRange": {
+					"Max": 37.0,
+					"Min": 33.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 32.0,
+					"Min": 28.0
+				}
+			},
+			{
+				"RequiredLevel": 33,
+				"DamageRange": {
+					"Max": 27.0,
+					"Min": 23.0
+				}
+			},
+			{
+				"RequiredLevel": 22,
+				"DamageRange": {
+					"Max": 22.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 8.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "+ to Intelligence",
+		"Tiers": [
+			{
+				"RequiredLevel": 74,
+				"DamageRange": {
+					"Max": 50.0,
+					"Min": 43.0
+				}
+			},
+			{
+				"RequiredLevel": 66,
+				"DamageRange": {
+					"Max": 42.0,
+					"Min": 38.0
+				}
+			},
+			{
+				"RequiredLevel": 55,
+				"DamageRange": {
+					"Max": 37.0,
+					"Min": 33.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 32.0,
+					"Min": 28.0
+				}
+			},
+			{
+				"RequiredLevel": 33,
+				"DamageRange": {
+					"Max": 27.0,
+					"Min": 23.0
+				}
+			},
+			{
+				"RequiredLevel": 22,
+				"DamageRange": {
+					"Max": 22.0,
+					"Min": 18.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 17.0,
+					"Min": 13.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 12.0,
+					"Min": 8.0
+				}
+			}
+		]
 	}
 ]
