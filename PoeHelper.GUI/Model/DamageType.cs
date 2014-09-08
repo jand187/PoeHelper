@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PoeHelper.GUI.Model
+﻿namespace PoeHelper.GUI.Model
 {
 	public class DamageType
 	{
@@ -28,37 +26,6 @@ namespace PoeHelper.GUI.Model
 			{
 				return (Low + High)/2;
 			}
-		}
-	}
-
-	public class ModType
-	{
-		public int Amount
-		{
-			get;
-			set;
-		}
-
-		public string Name
-		{
-			get;
-			set;
-		}
-
-		public Func<ModType, string> DisplayText
-		{
-			get;
-			set;
-		}
-
-		public void SetDiaplayFormat(Func<ModType, string> format)
-		{
-			DisplayText = format;
-		}
-
-		public override string ToString()
-		{
-			return DisplayText.Invoke(this);
 		}
 	}
 }
