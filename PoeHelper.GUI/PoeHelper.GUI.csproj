@@ -67,6 +67,8 @@
     <Compile Include="Parsers\Mods\AddedPropertyModParser.cs" />
     <Compile Include="Parsers\Mods\IncreasedDamageModParser.cs" />
     <Compile Include="Parsers\Mods\IncreasedDamageWithWeaponsModParser.cs" />
+    <Compile Include="Parsers\Mods\IncreasedPercentagePropertyModParser.cs" />
+    <Compile Include="Parsers\Mods\IncreasedPropertyModParser.cs" />
     <Compile Include="Parsers\Mods\IncreasedResistanceModParser.cs" />
     <Compile Include="Parsers\IParser.cs" />
     <Compile Include="Parsers\ItemLevelParser.cs" />

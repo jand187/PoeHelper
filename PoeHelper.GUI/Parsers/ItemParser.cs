@@ -28,8 +28,9 @@ namespace PoeHelper.GUI.Parsers
 				new ItemLevelParser(),
 				new IncreasedDamageModParser(modDatabase),
 				new IncreasedDamageWithWeaponsModParser(modDatabase),
-				new IncreasedResistanceModParser(modDatabase),
-				new AddedPropertyModParser(modDatabase)
+				new IncreasedPropertyModParser(modDatabase),
+				new IncreasedPercentagePropertyModParser(modDatabase), 
+				new AddedPropertyModParser(modDatabase),
 			};
 		}
 
