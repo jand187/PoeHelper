@@ -611,5 +611,162 @@
 				}
 			}
 		]
+	},
+	{
+		"Name": "+ to maximum Life",
+		"Tiers": [
+			{
+				"RequiredLevel": 73,
+				"DamageRange": {
+					"Max": 109.0,
+					"Min": 100.0
+				}
+			},
+			{
+				"RequiredLevel": 64,
+				"DamageRange": {
+					"Max": 99.0,
+					"Min": 90.0
+				}
+			},
+			{
+				"RequiredLevel": 54,
+				"DamageRange": {
+					"Max": 89.0,
+					"Min": 80.0
+				}
+			},
+			{
+				"RequiredLevel": 44,
+				"DamageRange": {
+					"Max": 79.0,
+					"Min": 70.0
+				}
+			},
+			{
+				"RequiredLevel": 36,
+				"DamageRange": {
+					"Max": 69.0,
+					"Min": 60.0
+				}
+			},
+			{
+				"RequiredLevel": 30,
+				"DamageRange": {
+					"Max": 59.0,
+					"Min": 50.0
+				}
+			},
+			{
+				"RequiredLevel": 24,
+				"DamageRange": {
+					"Max": 49.0,
+					"Min": 40.0
+				}
+			},
+			{
+				"RequiredLevel": 18,
+				"DamageRange": {
+					"Max": 39.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 20.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 19.0,
+					"Min": 10.0
+				}
+			}
+		]
+	},
+	{
+		"Name": "+ to maximum Mana",
+		"Tiers": [
+			{
+				"RequiredLevel": 75,
+				"DamageRange": {
+					"Max": 68.0,
+					"Min": 65.0
+				}
+			},
+			{
+				"RequiredLevel": 69,
+				"DamageRange": {
+					"Max": 64.0,
+					"Min": 60.0
+				}
+			},
+			{
+				"RequiredLevel": 60,
+				"DamageRange": {
+					"Max": 59.0,
+					"Min": 55.0
+				}
+			},
+			{
+				"RequiredLevel": 51,
+				"DamageRange": {
+					"Max": 54.0,
+					"Min": 50.0
+				}
+			},
+			{
+				"RequiredLevel": 42,
+				"DamageRange": {
+					"Max": 49.0,
+					"Min": 45.0
+				}
+			},
+			{
+				"RequiredLevel": 35,
+				"DamageRange": {
+					"Max": 44.0,
+					"Min": 40.0
+				}
+			},
+			{
+				"RequiredLevel": 29,
+				"DamageRange": {
+					"Max": 39.0,
+					"Min": 35.0
+				}
+			},
+			{
+				"RequiredLevel": 23,
+				"DamageRange": {
+					"Max": 34.0,
+					"Min": 30.0
+				}
+			},
+			{
+				"RequiredLevel": 17,
+				"DamageRange": {
+					"Max": 29.0,
+					"Min": 25.0
+				}
+			},
+			{
+				"RequiredLevel": 11,
+				"DamageRange": {
+					"Max": 24.0,
+					"Min": 20.0
+				}
+			},
+			{
+				"RequiredLevel": 1,
+				"DamageRange": {
+					"Max": 19.0,
+					"Min": 15.0
+				}
+			}
+		]
 	}
 ]
