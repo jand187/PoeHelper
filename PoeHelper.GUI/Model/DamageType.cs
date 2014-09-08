@@ -11,4 +11,19 @@
 			get { return (Low + High)/2; }
 		}
 	}
+
+	public class ModType
+	{
+		public int Amount
+		{
+			get;
+			set;
+		}
+
+		public string Name
+		{
+			get;
+			set;
+		}
+	}
 }

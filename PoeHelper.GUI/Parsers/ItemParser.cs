@@ -16,7 +16,9 @@ namespace PoeHelper.GUI.Parsers
 				new PhysicalDamagaParser(),
 				new ElementalDamageParser(),
 				new AttackSpeedParser(),
-				new ItemLevelParser()
+				new ItemLevelParser(),
+				new IncreasedDamageModParser(), 
+				new IncreasedDamageWithWeaponsModParser(), 
 			};
 		}
 
