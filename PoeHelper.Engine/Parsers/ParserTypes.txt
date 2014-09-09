@@ -1,0 +1,47 @@
+﻿Percentage increased
+--------------------------------------
+144% increased Physical Damage
+52% increased Energy Shield
+15% increased Rarity of Items found
+15% increased Block and Stun Recovery
+17% increased Critical Strike Chance for Spells
+73% increased Armour
+6% increased Block and Stun Recovery
+
+Percentage reduced
+--------------------------------------
+15% reduced Enemy Stun Threshold
+
+Percentage Added To
+--------------------------------------
++14% to Cold Resistance
++13% to Fire Resistance
++13% to Lightning Resistance
+
+Adds amount
+--------------------------------------
+Adds 9-98 Lightning Damage
+Adds 33-59 Fire Damage
+Adds 8-95 Cold Damage
+Adds 7-13 Physical Damage
+
+Number Added
+--------------------------------------
++4 Life gained for each enemy hit by your Attacks
+
+Number Added To
+--------------------------------------
++164 to Accuracy Rating
++55 to maximum Mana
++39 to maximum Life
++24 to Dexterity
++28 to Strength
+
+Regenerated per second
+--------------------------------------
+2.9 Life Regenerated per second
+
+Reflect
+--------------------------------------
+Reflects 27 Physical Damage to Melee Attackers
+

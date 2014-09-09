@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.GUI", "PoeHelper.GUI\PoeHelper.GUI.csproj", "{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.Engine", "PoeHelper.Engine\PoeHelper.Engine.csproj", "{B4862DDD-E601-4898-B0D3-27C45BE26B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.EngineTest", "PoeHelper.EngineTest\PoeHelper.EngineTest.csproj", "{54C280CF-E10B-4A4C-9AD1-CC6F4A9EA5E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBC294E5-07DB-470E-BC4E-8E77A7D3FF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4862DDD-E601-4898-B0D3-27C45BE26B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4862DDD-E601-4898-B0D3-27C45BE26B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4862DDD-E601-4898-B0D3-27C45BE26B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4862DDD-E601-4898-B0D3-27C45BE26B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C280CF-E10B-4A4C-9AD1-CC6F4A9EA5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C280CF-E10B-4A4C-9AD1-CC6F4A9EA5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C280CF-E10B-4A4C-9AD1-CC6F4A9EA5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C280CF-E10B-4A4C-9AD1-CC6F4A9EA5E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
