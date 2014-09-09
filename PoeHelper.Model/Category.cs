@@ -1,0 +1,29 @@
+namespace PoeHelper.Model
+{
+	public enum Category
+	{
+		Unknown,
+		Ring,
+		Amulet,
+		Belt,
+		Helmet,
+		Gloves,
+		Boots,
+		Chest,
+		Shield,
+		Wand,
+		Dagger,
+		Claws,
+		Scepter,
+		Staff,
+		Bow,
+		Sword1H,
+		Axe1H,
+		Sword2H,
+		Axe2H,
+		Mace1H,
+		Mace2H,
+		SkillGem,
+		Currency
+	}
+}
