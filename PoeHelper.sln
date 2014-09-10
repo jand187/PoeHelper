@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.EngineTest", "Poe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.Model", "PoeHelper.Model\PoeHelper.Model.csproj", "{CA26D906-F8CC-48FF-8E5D-764524B0F43F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoeHelper.Console", "PoeHelper.Console\PoeHelper.Console.csproj", "{75FF0805-808D-46E9-A4FB-B4B1860C45AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CA26D906-F8CC-48FF-8E5D-764524B0F43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA26D906-F8CC-48FF-8E5D-764524B0F43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA26D906-F8CC-48FF-8E5D-764524B0F43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FF0805-808D-46E9-A4FB-B4B1860C45AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FF0805-808D-46E9-A4FB-B4B1860C45AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FF0805-808D-46E9-A4FB-B4B1860C45AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FF0805-808D-46E9-A4FB-B4B1860C45AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
