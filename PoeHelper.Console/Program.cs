@@ -12,16 +12,17 @@ namespace PoeHelper.Console
 		{
 			System.Console.Write("Category name: ");
 			var category = System.Console.ReadLine();
-			
+
+			var html = Clipboard.GetText(TextDataFormat.Html);
 			var text = Clipboard.GetText(TextDataFormat.Text);
 			var data= text.Split(new[] {Environment.NewLine}, StringSplitOptions.None);
 			
 			var firstLine = data.First();
 			var parsers = GetParsers(firstLine);
 
-			var lines = data.Skip(1);
+			var lines = data.Skip(1).ToArray();
 
-			for (var index = 0; index < lines.Count(); index += 2)
+			for (var index = 0; index < lines.Length; index += 2)
 			{
 				var item = ParseItem(lines[index] + lines[index]);
 			}
@@ -33,7 +34,7 @@ namespace PoeHelper.Console
 
 		private static IEnumerable<IParser> GetParsers(string firstLine)
 		{
-
+			return null;
 			var headers = firstLine.Split(new[] { "\t" }, StringSplitOptions.None);
 			foreach (var header in headers)
 			{
@@ -43,19 +44,20 @@ namespace PoeHelper.Console
 
 		private static Item ParseItem(string line)
 		{
-			var props = line.Split(new[] {"\t"}, StringSplitOptions.None);
-			return new Item
-			{
-				Name = props[0],
-				ReuiredLevel = props[1],
-				RequiredStrength = props[2],
-				ReuiredDexterity = props[3],
---				ReuiredIntelligence = props[1],
-				Damage = props[4],
-				CriticalStrikeChance = props[5],
-				AttacksPerSecond= props[6],
-				DamagePerSecond = props[7],
-			};
+			return null;
+//			var props = line.Split(new[] {"\t"}, StringSplitOptions.None);
+//			return new Item
+//			{
+//				Name = props[0],
+//				ReuiredLevel = props[1],
+//				RequiredStrength = props[2],
+//				ReuiredDexterity = props[3],
+//--				ReuiredIntelligence = props[1],
+//				Damage = props[4],
+//				CriticalStrikeChance = props[5],
+//				AttacksPerSecond= props[6],
+//				DamagePerSecond = props[7],
+//			};
 		}
 	}
 
